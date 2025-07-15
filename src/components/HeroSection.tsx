@@ -76,6 +76,7 @@ export default function HeroSection() {
                   src="https://tailwindcss.com/plus-assets/Image/logos/mark.svg?color=indigo&shade=600"
                   className="h-8 w-auto"
                   width={500}
+                  height={400}
                 />
               </a>
               <button
@@ -144,7 +145,10 @@ export default function HeroSection() {
               >
                 Nossos produtos
               </a>
-              <a href="#" className="text-sm/6 font-semibold text-gray-900">
+              <a
+                href="#aboutUs"
+                className="text-sm/6 font-semibold text-gray-900"
+              >
                 Saiba mais <span aria-hidden="true">→</span>
               </a>
             </div>
