@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Debby lanches",
+  title: "Debby lanches | Lanches para eventos",
   description: "Lanches sobre encomenda",
 };
 
