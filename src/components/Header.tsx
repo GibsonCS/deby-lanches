@@ -7,7 +7,7 @@ import Image from "next/image";
 import logo from "@/images/Debby.png";
 import Link from "next/link";
 const navigation = [
-  { name: "Product", href: "#" },
+  { name: "Produtos", href: "#" },
   { name: "Categorias", href: "#" },
   { name: "Contato", href: "#" },
 ];
