@@ -55,8 +55,8 @@ export default function AboutUs() {
               </h1>
               <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
                 <p className="text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-                  Aqui na Debby Lanches, somos apaixonados pelo sabor e
-                  dedicados a entregar experiências deliciosas em cada mordida.
+                  Aqui na Deby Lanches, somos apaixonados pelo sabor e dedicados
+                  a entregar experiências deliciosas em cada mordida.
                   Trabalhamos com ingredientes selecionados e um cuidado
                   especial em cada encomenda, para que seu lanche seja sempre
                   fresco, saboroso e feito com muito carinho.

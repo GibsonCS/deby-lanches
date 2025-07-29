@@ -23,7 +23,7 @@ export default function Header() {
       >
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Debby Lanches</span>
+            <span className="sr-only">Deby Lanches</span>
             <Image
               alt=""
               src={logo}
