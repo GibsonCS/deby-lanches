@@ -1,14 +1,14 @@
 import Image from "next/image";
-import sanduicheNatural from "@/images/sanduicheNatural.png";
+import kit1 from "@/images/kit1.png";
 
 const products = [
   {
     id: 1,
-    name: "Pão árabe com minas e peito de peru",
+    name: "Pão de forma com pasta de frango. Acompanha suco de limão laranja ou uva, uma salada de fruta mais uma barrinha de cereal",
     description: "Natural",
     price: "R$ 35,90",
     href: "#",
-    imageSrc: sanduicheNatural,
+    imageSrc: kit1,
     imageAlt: "Hand stitched, orange leather long wallet.",
   },
   {
@@ -17,7 +17,7 @@ const products = [
     description: "Black",
     price: "R$ 25,80",
     href: "#",
-    imageSrc: sanduicheNatural,
+    imageSrc: kit1,
     imageAlt: "12-sided, machined black pencil and pen.",
   },
   {
@@ -26,7 +26,7 @@ const products = [
     description: "Light Brown",
     price: "R$ 12,90",
     href: "#",
-    imageSrc: sanduicheNatural,
+    imageSrc: kit1,
     imageAlt: "Set of three light and dark brown mini sketch books.",
   },
   {
@@ -35,7 +35,43 @@ const products = [
     description: "Walnut",
     price: "R$ 14,80",
     href: "#",
-    imageSrc: sanduicheNatural,
+    imageSrc: kit1,
+    imageAlt: "Beautiful walnut organizer set with multiple white compartments",
+  },
+  {
+    id: 5,
+    name: "Pão Suiço com pasta de peito de peru",
+    description: "Walnut",
+    price: "R$ 14,80",
+    href: "#",
+    imageSrc: kit1,
+    imageAlt: "Beautiful walnut organizer set with multiple white compartments",
+  },
+  {
+    id: 6,
+    name: "Pão Suiço com pasta de peito de peru",
+    description: "Walnut",
+    price: "R$ 14,80",
+    href: "#",
+    imageSrc: kit1,
+    imageAlt: "Beautiful walnut organizer set with multiple white compartments",
+  },
+  {
+    id: 7,
+    name: "Pão Suiço com pasta de peito de peru",
+    description: "Walnut",
+    price: "R$ 14,80",
+    href: "#",
+    imageSrc: kit1,
+    imageAlt: "Beautiful walnut organizer set with multiple white compartments",
+  },
+  {
+    id: 8,
+    name: "Pão Suiço com pasta de peito de peru",
+    description: "Walnut",
+    price: "R$ 14,80",
+    href: "#",
+    imageSrc: kit1,
     imageAlt: "Beautiful walnut organizer set with multiple white compartments",
   },
 ];
@@ -50,9 +86,9 @@ export default function ProductList() {
           </h2>
         </div>
 
-        <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-0 lg:gap-x-8">
+        <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-4 md:gap-y-8 lg:gap-x-8">
           {products.map((product) => (
-            <div key={product.id} className="group relative">
+            <div key={product.id} className="group relative text-left">
               <div className="h-56 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-72 xl:h-80">
                 <Image
                   alt={product.imageAlt}
@@ -71,7 +107,7 @@ export default function ProductList() {
               <p className="mt-1 text-sm text-gray-500">
                 {product.description}
               </p>
-              <p className="mt-1 text-sm font-medium text-gray-900">
+              <p className="mt-1 text-sm font-medium text-center text-gray-900">
                 {product.price}
               </p>
             </div>
